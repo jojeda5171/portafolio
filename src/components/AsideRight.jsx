@@ -6,7 +6,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import XIcon from "@mui/icons-material/X";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import "@/components/navbarStyles.css";
-import "@/components/AsideRightStyles.css";
+import "@/components/asideRightStyles.css";
 import Link from "next/link";
 import { useState } from "react";
 

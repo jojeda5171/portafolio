@@ -9,7 +9,8 @@ const theme = createTheme({
     },
     secondary: {
       //main: '#BF905C', // Cambia el color secundario (secondary)
-      main: '#D9AB73',
+      /* main: '#D9AB73', */
+      main: '#00DDFF'
     },
     error: {
       main: '#F23005', // Cambia el color de error

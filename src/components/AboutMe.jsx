@@ -17,14 +17,14 @@ function AboutMe() {
             sx={{ width: 150, height: 150 }}
             alt="José Ojeda"
             src="/img/avatar/listo.png"
-            className="animate-pulse border border-[#D9AB73] shadow-md shadow-[#D9AB73]"
+            className="animate-pulse border border-[#00DDFF] shadow-md shadow-[#00DDFF]"
           />
         </div>
         <div
           style={{ color: theme.palette.secondary.main }}
           className=" grid gap-3 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 p-5 gap-x-5 rounded-xl shadow-xl"
         >
-          <div className="space-y-2 border border-[#D9AB73] p-3 rounded-3xl shadow-md shadow-[#D9AB73]">
+          <div className="space-y-2 border border-[#00DDFF] p-3 rounded-3xl shadow-md shadow-[#00DDFF]">
             <h1 className="font-semibold text-xl tracking-wider">Who am I?</h1>
             <h2 className="font-extralight text-lg tracking-wide">
               Software Engineer | Backend Developer
@@ -38,7 +38,7 @@ function AboutMe() {
               and knowledge comprehensively.
             </p>
           </div>
-          <div className="space-y-2 border border-[#D9AB73] p-3 rounded-3xl shadow-md shadow-[#D9AB73]">
+          <div className="space-y-2 border border-[#00DDFF] p-3 rounded-3xl shadow-md shadow-[#00DDFF]">
             <h1 className="font-semibold text-xl tracking-wider">Education</h1>
             <div className="flex items-center space-x-2">
               <Avatar alt="UTA" src="/img/logo/logo-uta.png" />
@@ -82,7 +82,7 @@ function AboutMe() {
               </div>
             </div>
           </div>
-          <div className="space-y-2 border border-[#D9AB73] p-3 rounded-3xl shadow-md shadow-[#D9AB73]">
+          <div className="space-y-2 border border-[#00DDFF] p-3 rounded-3xl shadow-md shadow-[#00DDFF]">
             <h1 className="font-semibold text-xl tracking-wider">
               My Experpertice
             </h1>

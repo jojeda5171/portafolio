@@ -14,7 +14,7 @@ function Projects() {
           MY PROJECTS
         </h1>
         <div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-5 gap-4">
-          <div className="space-y-2 border border-[#D9AB73] p-3 rounded-3xl shadow-md shadow-[#D9AB73]">
+          <div className="space-y-2 border border-[#00DDFF] p-3 rounded-3xl shadow-md shadow-[#00DDFF]">
             <Link href="https://github.com/jojeda5171/EasyFact/">
               <img
                 className="h-auto bg-auto transition-all duration-300 rounded-lg bg-transparent hover:bg-transparent hover:scale-105 z-10"
@@ -52,7 +52,7 @@ function Projects() {
             </Link>
             <hr />
           </div>
-          <div className="space-y-2 border border-[#D9AB73] p-3 rounded-3xl shadow-md shadow-[#D9AB73]">
+          <div className="space-y-2 border border-[#00DDFF] p-3 rounded-3xl shadow-md shadow-[#00DDFF]">
             <Link href="https://github.com/jojeda517/Certech-BackEnd/">
               <img
                 className="h-auto bg-auto transition-all duration-300 rounded-lg bg-transparent hover:bg-transparent hover:scale-105 z-10"
@@ -92,7 +92,7 @@ function Projects() {
             </Link>
             <hr />
           </div>
-          <div className="space-y-2 border border-[#D9AB73] p-3 rounded-3xl shadow-md shadow-[#D9AB73]">
+          <div className="space-y-2 border border-[#00DDFF] p-3 rounded-3xl shadow-md shadow-[#00DDFF]">
             <Link href="https://github.com/jojeda5171/planifica-facil/">
               <img
                 className="h-auto bg-auto transition-all duration-300 rounded-lg bg-transparent hover:bg-transparent hover:scale-105 z-10"
@@ -132,7 +132,7 @@ function Projects() {
             </Link>
             <hr />
           </div>
-          <div className="space-y-2 border border-[#D9AB73] p-3 rounded-3xl shadow-md shadow-[#D9AB73]">
+          <div className="space-y-2 border border-[#00DDFF] p-3 rounded-3xl shadow-md shadow-[#00DDFF]">
             <Link href="https://github.com/jojeda517/Seguridad-Frontend/">
               <img
                 className="h-auto bg-auto transition-all duration-300 rounded-lg bg-transparent hover:bg-transparent hover:scale-105 z-10"

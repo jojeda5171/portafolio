@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <ThemeProvider theme={theme}>
       <nav className="z-30 fixed bottom-4 inset-x-0 flex justify-center">
-        <div className="grid gap-x-5 gap-y-4 grid-cols-5 px-5 py-1 bg-black bg-opacity-50 rounded-full border border-[#D9AB73] shadow-[#D9AB73] shadow-2xl ">
+        <div className="grid gap-x-5 gap-y-4 grid-cols-5 px-5 py-1 bg-black bg-opacity-50 rounded-full border border-[#00DDFF] shadow-[#00DDFF] shadow-2xl ">
           {/* <div className="grid gap-x-5 gap-y-4 grid-cols-5 px-5 py-1 bg-black bg-opacity-50 rounded-full shadow-xl"> */}
           <Link
             href="#HOME"

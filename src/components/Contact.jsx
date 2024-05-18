@@ -133,7 +133,7 @@ function Contact() {
 
         <form
           id="contactForm"
-          className="border border-[#D9AB73] p-4 rounded-3xl w-full space-y-1 shadow-md shadow-[#D9AB73]"
+          className="border border-[#00DDFF] p-4 rounded-3xl w-full space-y-1 shadow-md shadow-[#00DDFF]"
           onSubmit={handleSubmit}
         >
           {notification && (
@@ -280,7 +280,7 @@ function Contact() {
                 {menuAbierto && (
                   <div
                     id="dropdown-phone"
-                    className="absolute z-10 divide-y divide-gray-100 rounded-lg shadow w-auto max-h-52 bg-gray-700 overflow-y-auto border"
+                    className="absolute z-10 divide-y divide-gray-100 rounded-lg shadow w-auto max-h-52 bg-gray-700 overflow-y-auto border border-[#00DDFF]"
                     style={{
                       scrollbarWidth: "thin",
                       scrollbarColor: "rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.1)",
