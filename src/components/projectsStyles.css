@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-family: serif !important;
+  font-size: xxx-large;
+}
+
+h2 {
+  font-family: serif !important;
+  font-size: large;
+}
+
+h3 {
+  font-family: serif !important;
+  font-size: medium;
+}
+
+p {
+  font-family: sans-serif !important;
+  font-size: small;
+  text-align: justify;
+  color: white;
+}

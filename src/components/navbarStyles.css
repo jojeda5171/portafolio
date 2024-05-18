@@ -1,0 +1,12 @@
+@keyframes moveGradient {
+  0% {
+    box-shadow: 0 0 10px #D9AB73, 0 0 20px #D9AB73, 0 0 30px #D9AB73, 0 0 40px #D9AB73, 0 0 50px #D9AB73;
+  }
+  100% {
+    box-shadow: 0 0 10px #4E4639, 0 0 20px #4E4639, 0 0 30px #4E4639, 0 0 40px #4E4639, 0 0 50px #4E4639, 0 0 60px #4E4639;
+  }
+}
+
+.animate-led {
+  animation: moveGradient 2s linear infinite alternate;
+}
