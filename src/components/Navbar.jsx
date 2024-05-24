@@ -15,16 +15,16 @@ import "@/components/navbarStyles.css";
 function Navbar() {
   return (
     <ThemeProvider theme={theme}>
-      <nav className="z-30 fixed bottom-4 inset-x-0 flex justify-center">
+      <nav className="z-30 fixed bottom-5 inset-x-0 flex justify-center">
         <div className="grid gap-x-5 gap-y-4 grid-cols-5 px-5 py-1 bg-black bg-opacity-50 rounded-full border border-[#00DDFF] shadow-[#00DDFF] shadow-2xl ">
           {/* <div className="grid gap-x-5 gap-y-4 grid-cols-5 px-5 py-1 bg-black bg-opacity-50 rounded-full shadow-xl"> */}
           <Link
             href="#HOME"
             size="small"
             title="home"
-            className="bg-transparent transform transition-transform hover:bg-transparent hover:scale-150 z-10]"
+            className="bg-transparent transform transition-transform hover:bg-transparent hover:scale-150 z-10"
           >
-            <HomeOutlinedIcon color="white" />
+            <HomeOutlinedIcon color="white" className=""/>
           </Link>
           <Link
             href="#ABOUT ME"
@@ -65,25 +65,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-/* 
-<div className="fixed bottom-4 inset-x-0 flex justify-center">
-      <div className="grid gap-x-5 gap-y-4 grid-cols-5 px-5 py-1 bg-black bg-opacity-50 rounded-full shadow-xl">
-        <Link color="primary" aria-label="home" title="home">
-          <HomeOutlinedIcon />
-        </Link>
-        <Link color="primary" aria-label="About me" title="About me">
-          <PersonOutlineOutlinedIcon />
-        </Link>
-        <Link color="secondary" aria-label="projects" title="Projects">
-          <LaptopChromebookOutlinedIcon />
-        </Link>
-        <Link color="secondary" aria-label="skills" title="Skills">
-          <CodeOffOutlinedIcon />
-        </Link>
-        <Link color="secondary" aria-label="contact me" title="Contact me">
-          <ContactMailOutlinedIcon />
-        </Link>
-      </div>
-    </div>
-*/

@@ -5,6 +5,7 @@ import CodeIcon from "@mui/icons-material/Code";
 import WebOutlinedIcon from "@mui/icons-material/WebOutlined";
 import AssignmentOutlinedIcon from "@mui/icons-material/AssignmentOutlined";
 import Avatar from "@mui/material/Avatar";
+import Link from "next/link";
 
 /* import "@/components/aboutMeStyles.css"; */
 
@@ -55,66 +56,87 @@ function AboutMe() {
             <h1 className="font-semibold text-xl tracking-wider">
               Certificate
             </h1>
-            <div className="flex items-center columns-2 space-x-2">
-              <div>
-                <Avatar alt="Python" src="/img/logo/python1.png" />
-              </div>
-              <div className="grid grid-cols-1 w-full">
-                <h2 className="font-extralight text-lg tracking-wide">
-                  2024 - Cisco
-                </h2>
-                <h3 className="w-full text-white text-base font-mono">
-                  Python Essentials 1
-                </h3>
-                <hr />
-              </div>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Avatar alt="Python" src="/img/logo/python2.png" />
-              <div className="grid grid-cols-1 w-full">
-                <h2 className="font-extralight text-lg tracking-wide">
-                  2024 - Cisco
-                </h2>
-                <h3 className="w-full text-white text-base font-mono">
-                  Python Essentials 2
-                </h3>
-                <hr />
-              </div>
+            <div className="grid grid-cols-1 gap-2">
+              <Link
+                href="https://www.credly.com/badges/71863662-dd76-4621-ab2b-d2a411476058"
+                className="rounded-full hover:border-[#00DDFF] hover:shadow-md hover:shadow-[#00DDFF]"
+              >
+                <div className="flex items-center space-x-2">
+                  <Avatar alt="Python" src="/img/logo/python2.png" />
+                  <div className="grid grid-cols-1 w-full">
+                    <h2 className="font-extralight text-lg tracking-wide">
+                      2024 - Cisco
+                    </h2>
+                    <h3 className="w-full text-white text-base font-mono">
+                      Python Essentials 2
+                    </h3>
+                    <hr />
+                  </div>
+                </div>
+              </Link>
+              <Link
+                href="https://www.credly.com/badges/e8db963b-4d79-4bbb-a213-8dc60eb4dd7f"
+                className="rounded-full hover:border-[#00DDFF] hover:shadow-md hover:shadow-[#00DDFF]"
+              >
+                <div className="flex items-center columns-2 space-x-2">
+                  <div>
+                    <Avatar alt="Python" src="/img/logo/python1.png" />
+                  </div>
+                  <div className="grid grid-cols-1 w-full">
+                    <h2 className="font-extralight text-lg tracking-wide">
+                      2024 - Cisco
+                    </h2>
+                    <h3 className="w-full text-white text-base font-mono">
+                      JavaScript Essentials 2
+                    </h3>
+                    <hr />
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="space-y-2 border border-[#00DDFF] p-3 rounded-3xl shadow-md shadow-[#00DDFF]">
             <h1 className="font-semibold text-xl tracking-wider">
               My Experpertice
             </h1>
-            <div className="flex items-center space-x-2">
-              <CodeIcon color="white" sx={{ fontSize: 40 }} />
-              <div className="grid grid-cols-1 w-full">
-                <h2 className="font-extralight text-lg tracking-wide">
-                  Backend Developer
-                </h2>
-                <h3 className="text-white text-base">I have experience in developing backend applications.</h3>
-                <hr />
+            <div className="grid grid-cols-1 gap-2">
+              <div className="flex items-center space-x-2">
+                <CodeIcon color="white" sx={{ fontSize: 40 }} />
+                <div className="grid grid-cols-1 w-full">
+                  <h2 className="font-extralight text-lg tracking-wide">
+                    Backend Developer
+                  </h2>
+                  <h3 className="text-white text-base">
+                    I have experience in developing backend applications.
+                  </h3>
+                  <hr />
+                </div>
               </div>
-            </div>
 
-            <div className="flex items-center space-x-2">
-              <WebOutlinedIcon color="white" sx={{ fontSize: 40 }} />
-              <div className="grid grid-cols-1 w-full">
-                <h2 className="font-extralight text-lg tracking-wide">
-                  Frontend Developer
-                </h2>
-                <h3 className="text-white text-base">I have experience in developing frontend applications.</h3>
-                <hr />
+              <div className="flex items-center space-x-2">
+                <WebOutlinedIcon color="white" sx={{ fontSize: 40 }} />
+                <div className="grid grid-cols-1 w-full">
+                  <h2 className="font-extralight text-lg tracking-wide">
+                    Frontend Developer
+                  </h2>
+                  <h3 className="text-white text-base">
+                    I have experience in developing frontend applications.
+                  </h3>
+                  <hr />
+                </div>
               </div>
-            </div>
-            <div className="flex items-center space-x-2">
-              <AssignmentOutlinedIcon color="white" sx={{ fontSize: 40 }} />
-              <div className="grid grid-cols-1 w-full">
-                <h2 className="font-extralight text-lg tracking-wide">
-                  Project Manager
-                </h2>
-                <h3 className="text-white text-base">I have experience in managing projects.</h3>
-                <hr />
+
+              <div className="flex items-center space-x-2">
+                <AssignmentOutlinedIcon color="white" sx={{ fontSize: 40 }} />
+                <div className="grid grid-cols-1 w-full">
+                  <h2 className="font-extralight text-lg tracking-wide">
+                    Project Manager
+                  </h2>
+                  <h3 className="text-white text-base">
+                    I have experience in managing projects.
+                  </h3>
+                  <hr />
+                </div>
               </div>
             </div>
           </div>
