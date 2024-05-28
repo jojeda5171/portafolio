@@ -27,7 +27,7 @@ function AsideRight() {
             <XIcon color="secondary" className="hover:scale-150 z-10 icon"/>
           </Link>
           <Link
-            href="https://www.instagram.com/joseluisojedacarrasco/"
+            href="https://www.instagram.com/jojeda5171/"
             className=""
           >
             <InstagramIcon color="secondary" className="hover:scale-150 z-10 icon"/>
