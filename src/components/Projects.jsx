@@ -10,7 +10,7 @@ function Projects() {
         style={{ color: theme.palette.secondary.main }}
         className=" w-10/12 grid grid-cols-1"
       >
-        <h1 className="text-3xl text-center pt-5 font-serif 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-3xl tracking-widest">
+        <h1 className="text-3xl text-center pt-2 font-serif 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-3xl tracking-widest">
           MY PROJECTS
         </h1>
         <div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-5 gap-4">
