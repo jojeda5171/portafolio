@@ -128,7 +128,7 @@ function AboutMe() {
             </h1>
             <div className="grid grid-cols-1 gap-2">
               <div className="flex items-center space-x-2">
-                <CodeIcon color="white" sx={{ fontSize: 40 }} />
+                <CodeIcon color="secondary" sx={{ fontSize: 40 }} />
                 <div className="grid grid-cols-1 w-full">
                   <h2 className="font-extralight text-lg tracking-wide">
                     Backend Developer
@@ -142,7 +142,7 @@ function AboutMe() {
               </div>
 
               <div className="flex items-center space-x-2">
-                <WebOutlinedIcon color="white" sx={{ fontSize: 40 }} />
+                <WebOutlinedIcon color="secondary" sx={{ fontSize: 40 }} />
                 <div className="grid grid-cols-1 w-full">
                   <h2 className="font-extralight text-lg tracking-wide">
                     Frontend Developer
@@ -157,7 +157,7 @@ function AboutMe() {
               </div>
 
               <div className="flex items-center space-x-2">
-                <AssignmentOutlinedIcon color="white" sx={{ fontSize: 40 }} />
+                <AssignmentOutlinedIcon color="secondary" sx={{ fontSize: 40 }} />
                 <div className="grid grid-cols-1 w-full">
                   <h2 className="font-extralight text-lg tracking-wide">
                     Project Manager
