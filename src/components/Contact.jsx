@@ -104,6 +104,7 @@ function Contact() {
             : "+",
           flags: country.flags.svg,
         }));
+        listCountries.sort((a, b) => a.name.localeCompare(b.name));
         setCountryCode(listCountries);
       } catch (error) {
         console.error("Error fetching country code:", error);
@@ -134,7 +135,8 @@ function Contact() {
         className="grid grid-cols-1 place-items-center gap-y-5 w-10/12 2xl:w-6/12 xl:w-7/12 lg:w-8/12 md:w-9/12 sm:w-10/12"
       >
         <h1 className="text-3xl text-center font-serif 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-3xl tracking-widest">
-          CONTACT ME
+          <span>CONTACT</span>
+          <span className="text-white"> ME</span>
         </h1>
 
         <form

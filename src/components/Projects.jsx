@@ -11,7 +11,8 @@ function Projects() {
         className=" w-10/12 grid grid-cols-1"
       >
         <h1 className="text-3xl text-center pt-2 font-serif 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-3xl tracking-widest">
-          MY PROJECTS
+          <span className="text-white">MY </span>
+          <span>PROJECTS</span>
         </h1>
         <div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-5 gap-4">
           <div className="space-y-2 border border-[#00DDFF] p-3 rounded-3xl shadow-md shadow-[#00DDFF]">
