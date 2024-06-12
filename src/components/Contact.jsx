@@ -4,12 +4,14 @@ import theme from "@/app/theme";
 import { useState, useEffect } from "react";
 import Alert from "@mui/material/Alert";
 import CheckIcon from "@mui/icons-material/Check";
+import CircularProgress from "@mui/material/CircularProgress";
 
 function Contact() {
   const [menuAbierto, setMenuAbierto] = useState(false);
   const [countryCode, setCountryCode] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [notification, setNotification] = useState(null);
+  const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     lastName: "",
@@ -36,6 +38,8 @@ function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    setLoading(true);
 
     try {
       const response = await fetch("/api/email", {
@@ -68,6 +72,8 @@ function Contact() {
       }
     } catch (error) {
       console.error("Error sending message:", error);
+    } finally {
+      setLoading(false); // Finalizar el estado de carga
     }
   };
 
@@ -376,13 +382,20 @@ function Contact() {
             ></textarea>
           </div>
           <div>
-            <button
-              type="submit"
-              style={{ backgroundColor: theme.palette.secondary.main }}
-              className="block w-full mt-2 p-2.5 text-sm rounded-lg border border-gray-600 placeholder-gray-400 text-black focus:ring-blue-500 focus:border-blue-500 font-serif tracking-widest font-extrabold"
-            >
-              SEND
-            </button>
+            {loading ? ( // Mostrar indicador de carga si está cargando
+              // mostrarlo en el centro de la pantalla
+              <div className="flex items-center justify-center">
+                <CircularProgress color="secondary" />
+              </div>
+            ) : (
+              <button
+                type="submit"
+                style={{ backgroundColor: theme.palette.secondary.main }}
+                className="block w-full mt-2 p-2.5 text-sm rounded-lg border border-gray-600 placeholder-gray-400 text-black focus:ring-blue-500 focus:border-blue-500 font-serif tracking-widest font-extrabold"
+              >
+                SEND
+              </button>
+            )}
           </div>
         </form>
       </div>
