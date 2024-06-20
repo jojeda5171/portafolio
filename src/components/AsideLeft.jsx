@@ -82,7 +82,9 @@ function AsideLeft() {
               anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
               variant="dot"
             >
-              <Avatar alt="José Ojeda" src="/img/avatar/listo.png" />
+              <Link href="https://github.com/jojeda5171/">
+                <Avatar alt="José Ojeda" src="/img/avatar/listo.png" />
+              </Link>
             </StyledBadge>
           </div>
           {/* texto que indique en que seccion esta */}
@@ -108,7 +110,10 @@ function AsideLeft() {
             >
               CV
             </p>
-            <Link href="https://1drv.ms/b/s!AlybSi_bVGVMgqYEiHfeMmVOQzkheA?e=oCN0M3" download>
+            <Link
+              href="https://1drv.ms/b/s!AlybSi_bVGVMgqYEiHfeMmVOQzkheA?e=oCN0M3"
+              download
+            >
               <CloudDownloadIcon
                 color="secondary"
                 className="animate-pulse hover:scale-150 icon"
