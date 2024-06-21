@@ -19,7 +19,7 @@ function Skills() {
 
         <div className="grid gap-4 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 text-lg pb-5">
           <div className="p-4 rounded-3xl border border-[#00DDFF] grid grid-cols-1 gap-y-3 shadow-md shadow-[#00DDFF]">
-            <h1 className="font-semibold text-xl">💻 Framewors</h1>
+            <h1 className="font-semibold text-xl">💻 Frameworks</h1>
             <div className="flex justify-center">
               <img
                 src="https://skillicons.dev/icons?i=next,react,nodejs,django,fastapi"
